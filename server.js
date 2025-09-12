@@ -1,5 +1,5 @@
 
-// server.js - Kynay Assistant Backend Ultra Complex (upgrade dari versi asli)
+//Kepada pak dika/member yang mau review ini untuk backen nya ya
 require('dotenv').config();
 const express = require('express');
 const fs = require('fs-extra');
