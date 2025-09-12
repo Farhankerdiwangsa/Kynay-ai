@@ -17,7 +17,7 @@ const chalk = require('chalk');
 
 const app = express();
 
-// -------------------- CONFIG --------------------
+// ini untuk konfigurasi servernya ya mohon review 
 const PORT = parseInt(process.env.SERVER_PORT || '2009', 10);
 const DATA_DIR = process.env.DATA_DIR || path.join(__dirname, 'data');
 const MEDIA_DIR = path.join(__dirname, 'media');
