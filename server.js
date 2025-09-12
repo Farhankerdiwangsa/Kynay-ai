@@ -73,7 +73,7 @@ app.use((req, res, next) => {
   next();
 });
 
-// Anti-DDOS
+//ini buat Anti-DDOS maaf kalo sederhana soalnya baru belajar cyber sec
 app.use(rateLimit({
   windowMs: 60 * 1000,
   max: 100,
