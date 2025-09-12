@@ -1,5 +1,5 @@
 
-//Kepada pak dika/member yang mau review ini untuk backen nya ya
+// Kepada pak dika/member yang mau review ini untuk backen nya ya
 require('dotenv').config();
 const express = require('express');
 const fs = require('fs-extra');
@@ -132,7 +132,7 @@ function authMiddleware(req, res, next) {
   }
 }
 
-// -------------------- AI CALL --------------------
+// ini buat pemanggilan ainya
 async function callGenerativeModel(messages) {
   const apis = fs.readJsonSync(APIS_FILE);
   let lastErr = null;
