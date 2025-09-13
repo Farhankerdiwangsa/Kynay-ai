@@ -204,7 +204,7 @@ Gambaran Umum
 
 Arsitektur Kynay AI dirancang dengan pendekatan client-server yang sederhana namun fleksibel. Frontend menangani interaksi visual dan input user, sedangkan backend mengelola logika bisnis, autentikasi, dan penyimpanan data.
 
-Diagram alur data (sederhana ASCII):
+Diagram alur data :
 
 [User Browser]
       |
